@@ -1,0 +1,8 @@
+string text = File.ReadAllText(@"C:\Users\pc\Documents\Visual Studio 2015\Projects\ReadFromf\ReadFromf\jakasTamNazwa.txt");
+                //Console.WriteLine(text);
+
+            int count = 0;
+            foreach (char c in text)
+                if (c == '/') count++;
+            Console.WriteLine(count);
+            Console.ReadKey();
