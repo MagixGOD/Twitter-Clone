@@ -7,4 +7,10 @@ class StaticPagesController < ApplicationController
 
   def about
   end
+
+  def snake
+  end
+
+  def login
+  end
 end
